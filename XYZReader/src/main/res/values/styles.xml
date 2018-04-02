@@ -17,12 +17,25 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat">
+    <style name="Theme.Bacon" parent="Theme.AppCompat">
 
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="android:textColorSecondaryInverse">#FFFFFF</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
     </style>
 
-    <style name="Theme.Bacon.Detail">
+    <style name="Theme.Bacon.Detail" >
         <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorPrimary">#4FC3F7</item>
+        <item name="colorPrimaryDark">#01579B</item>
+        <item name="colorAccent">#81D4FA</item>
+        <item name="android:colorBackground">#E1F5FE</item>
+        <item name="android:colorForeground">#0D47A1</item>
+        <item name="android:textColorPrimary">#0091EA</item>
+        <item name="android:textColorPrimaryInverse">#FF8A00</item>
+        <item name="android:textColorSecondary">#FFE3C8</item>
+        <item name="android:textColorSecondaryInverse">#B26800</item>
+        <item name="android:windowBackground">#84FFFF</item>
     </style>
 
 </resources>

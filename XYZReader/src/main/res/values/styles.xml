@@ -18,11 +18,18 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat">
+        <item name="colorButtonNormal">#009688</item>
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#004D40</item>
+        <item name="android:colorBackground">#B2DFDB</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="colorAccent">#00796B</item>
+        <item name="android:textColorSecondary">#004D40</item>
+        <item name="android:textColorSecondaryInverse">#004D40</item>
 
     </style>
 
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    <style name="Theme.Bacon.Detail" parent="Theme.Bacon">
     </style>
 
 </resources>
